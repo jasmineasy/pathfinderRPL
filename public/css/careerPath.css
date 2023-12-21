@@ -1,0 +1,264 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.left-sidebar,
+.right-sidebar,
+.content {
+    box-sizing: border-box;
+}
+
+.left-sidebar a:hover,
+.right-sidebar a:hover {
+    background-color: #EEEEEE;
+}
+
+
+
+
+/* !SIDE BAR */
+
+/* *right SideBar */
+.right-sidebar {
+    background: url('/images/sideBarKanan.png') center / cover;
+    width: 400px;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.profile {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.profile img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.profile h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.profile h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+
+
+/* *left SideBar */
+
+.left-sidebar {
+    width: 360px;
+    height: auto;
+    background-color: #F8F8F5;
+    padding: 20px;
+    border-top-right-radius: 47px;
+    border-bottom-right-radius: 47px;
+}
+
+.left-sidebar a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: #6C6F6D;
+}
+
+
+/* judul pathfinder di sidebar */
+.app-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.app-name img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.app-name h3 {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* options di sidebar kirinya */
+
+.options {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.options a {
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.options img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.mainSub2 a {
+    color: white;
+}
+
+.mainSub {
+    color: white;
+    background-color: #58B4A7;
+    text-decoration: none;
+}
+
+.mainSub2 a:hover {
+    background-color: #58B4A7;
+}
+
+
+/* !KONTEN UTAMA */
+#gambar img {
+    width: 440px;
+    height: auto;
+    /* Set the desired height */
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+#gambar1:hover,
+#gambar2:hover {
+    transform: scale(1.03);
+}
+
+#gambar1:hover {
+    content: url('/images/card-hover.png');
+}
+
+#gambar2:hover {
+    content: url('/images/card2-hover.png');
+}
+
+#gambar {
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 50px;
+}
+
+.content h1 {
+    font-size: 45px;
+    margin-bottom: 3px;
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #6C6F6D;
+    margin-top: 0;
+}
+
+.judul {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.judul img {
+    width: auto;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.dataScience,
+.interactiveMedia {
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #3A9C8E;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Adjust values as needed */
+    border: none;
+    /* Remove border */
+}
+
+.dataScience h4 {
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    color: #3A9C8E;
+}
+
+.interactiveMedia h4 {
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    color: #EEB62B;
+}
+
+.dataChoices,
+.internChoices {
+    display: flex;
+    padding: 0;
+}
+
+.dataChoices a {
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-color: #3A9C8E;
+    border-style: solid;
+    font-weight: 500;
+}
+
+.internChoices a {
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-color: #EEB62B;
+    border-style: solid;
+    font-weight: 500;
+}
+
+.interactiveMedia {
+    margin-top: 20px;
+}
